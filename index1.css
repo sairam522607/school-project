@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+.bannerimage{
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 100%;
+  margin-bottom: 20px;
+}
+.nav-bar{
+      top: 0;
+      position: sticky;
+      background-size: cover;
+      padding: 10px;
+      display: flex;
+      justify-content:right;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 5px;
+      background-color: cornsilk;
+}
+.nav-bar a{
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+  padding: 10px;
+}
+.hover-underline {
+  font-size: 2rem;
+  color: black;
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #000000, #1a2d2d);
+  bottom: -1px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin:left;
+  transition: transform 0.2s ease-out;
+}
+
+.hover-underline::before {
+  transform-origin:left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+.bannervideo{
+  margin-top: 0px;
+}
+.facilitiessection{
+  text-align:center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+.facilitie1outerdiv{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 50px;
+}
+.facilitie1innerdiv{
+  max-width: 500px;
+}
+.facilitie1innerdiv p{
+  font-size: 16px;
+  line-height: 30px;
+}
+.bus-image{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+.aboutussection{
+  margin-top: 0px;
+}
+.aboutusouterdiv{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+.aboutusinnerdiv{
+  font-size: 16px;
+  line-height: 30px;
+  padding:20px;
+  max-width: 600px;
+ 
+}
+.aboutusouterdiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.aboutusouterdiv p{
+  font-size: 16px;
+  line-height: 40px;
+  max-height:400px;
+}
+.bannerimage{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+.aboutusinnerdiv1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  line-height: 40px;
+  margin-top: 0px;
+}
+.aboutusinnerdiv1 p{
+  margin-top: 10px;
+}
+.founder{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  max-height: 500px;
+}
+.founderimage:hover{
+  transform:scale(0.9);
+}
+.founder p{
+  margin-top:20px;
+}
+
+.homeimage{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.curicullumcontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  line-height: 60px;
+  margin-top: 0px;
+}
+.admissionbanner{
+
+  justify-content: center;
+  align-items: center;
+}
+.enrollbutton{
+  height:50px;
+  width:250px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color:#f9c349;
+  border-radius: 10px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  text-decoration: none;
+}
+.admissionbanner{
+      height:100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.enrollbutton{
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex; /* Enables CSS flexbox */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full height to demonstrate vertical centering */
+  
+}
+
+.enrollbutton {
+  padding: 10px 20px;
+  height:60px;
+  margin-left: 20px;
+}
+.admisiondocuments{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  line-height: 60px;
+  margin-top: 0px;
+}
+.admissiondetailsinput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  margin: 2rem 0;
+}
+
+.parentname, .parentemail, .parentcomments {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  font-size: 1.125rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #f6f7fa;
+}
+
+.submit-button {
+  padding: 1rem 2rem;
+  background-color: #4583e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.admissiondatailasinput{
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.contacctinfo{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.contactaddress
+{
+  
+  line-height: 35px;
+  font-size: 25px;
+}
+.socialmediaicons{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.facebookicon:hover{
+  color: #4583e0;
+}
+.youtubeicon:hover{
+  color:red;
+}
+.watsappicon:hover{
+  color:darkgreen;
+}
+.instagramicon:hover{
+  color:tomato;
+}
+.linkedinicon:hover{
+  color:blue;
+}

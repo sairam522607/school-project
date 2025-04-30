@@ -1,0 +1,72 @@
+/*body{
+  font-family: "Playfair Display", serif;
+  background-image: url(images/freepik__adjust__97882.png);
+
+ 
+}
+  */
+.form{
+
+  padding:20px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  line-height: 30px;
+  font-size: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba(6, 127, 149, 0.37);
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-repeat: no-repeat;
+  
+}
+.input_box{
+width:300px;
+height:25px;
+border-radius: 10px;
+border:2px;
+border-style: groove;
+padding:10px;
+}
+.radio_button{
+width:20px;
+height:20px;
+}
+.select_box{
+height:30px;
+width:300px;
+text-align: center;
+border-radius: 5px;;
+}
+.upload_box{
+width:300px;
+height:40px;
+}
+.dob_box{
+width:300px;
+height:30px;
+border-radius: 5px;
+text-align: center;
+}
+.submit_button{
+text-align: center;
+background-color: bisque;
+width:150px;
+height:40px;
+border:rgba(28, 5, 5, 0.18) 2px solid;
+font-size: larger;
+cursor:pointer;
+margin-top: 10px;
+border-radius: 10px;;
+
+}
+.submit_button:hover{
+background-color: aqua;
+border-radius: 5px;
+}
+.submit_button:active{
+background-color: crimson;
+color:white;
+}

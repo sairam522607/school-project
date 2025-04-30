@@ -1,0 +1,463 @@
+body{
+  background-image: url(images/24.jpg);
+  font-family: "Roboto", sans-serif;
+  margin:0px;
+}
+
+.firstrow{
+  position: sticky;
+  top:0px;
+  width:50px;
+  background-position:top;
+}
+.firstcolumn{
+  margin:0px;
+}
+.home,
+.facilities,
+.contact,
+.about,
+.curicullum,
+.login{
+  text-decoration: none;
+  color:black;
+ float:left;
+}
+.nav-bar {
+  color:black;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  
+}
+
+.hover-underline {
+  font-size: 2rem;
+  color: black;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #33c5d5, #1a2d2d);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
+
+.nav-bar a {
+color:black;
+font-size: 20px;
+padding: 10px 20px;
+display: inline-block;
+text-align: center;
+transition: background-color 0.3s ease;
+
+}
+
+.nav-bar a:hover,
+.dropdown-content a :hover {
+border-radius: 4px;
+
+}
+
+/* Dropdown Menu Styling */
+.dropdown {
+position: relative;
+display: inline-block;
+
+}
+
+.dropbtn {
+background-color: inherit;
+color:black;
+font-size: 16px;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+text-align: center;
+transition: background-color 0.3s ease;
+text-decoration: none;
+}
+
+.dropbtn:hover {
+border-radius: 4px;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+display: none;
+position: relative;
+color:black;
+min-width: 160px;
+box-shadow: 0px 8px 16px rgba(67, 45, 45, 0.2);
+z-index: 1;
+text-align: left;
+background-color: rgb(215, 175, 175);
+}
+
+.dropdown-content a {
+color:black;
+padding: 10px 15px;
+display: block;
+text-align: center;
+transition: background-color 0.3s ease;
+text-decoration: none;
+
+}
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.login{
+  width:50px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+.login a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  float: left;
+ 
+}
+
+.content-total{
+  height:500px;
+  float:left;
+}
+.content1{
+  background-color: aqua;
+  width:300px;
+  float:left;
+  padding:10px;
+  margin:10px;
+}
+.content2{
+  background-color: rgb(204, 0, 255);
+  width:300px;
+  padding:10px;
+  margin:10px;
+}
+.content3{
+  background-color: rgb(111, 255, 0);
+  width:300px;
+  padding:10px;
+  margin:10px;
+}
+.bannerdiv{
+  height:500px;
+
+}
+.banner{
+  height:100%;
+  width:100%;
+}
+.aboutbus-content{
+  font-size: 15px;
+  line-height: 30px;
+  padding-top:50px;
+  padding-left:80px;
+}
+.faciliti1{
+  text-align: center;
+  background-image: url(C:\Users\saira\OneDrive\Desktop\Frontend\project\images\freepik__upload__62586.png);
+  height:500px;
+  width:100%;
+  padding:15px;
+  margin-left:10px;
+}
+.aboutbus{
+  float:left;
+  width:500px;
+  padding-top:50px;
+}
+.busimage img{
+  border-radius: 10px;
+}
+.faciliti2{
+  text-align: center;
+  height:500px;
+  width:100%;
+  padding:15px;
+  margin-left:10px;
+  margin-top:50px;
+}
+.faciliti3{
+  text-align: center;
+  height:500px;
+  width:100%;
+  padding:15px;
+  margin-left:10px;
+  margin-top:50px;
+}
+.busimage2{
+  float:left;
+}
+.bus-image2{
+  border-radius: 10px;
+  margin-left: 90px;;
+}
+.aboutbus2{
+  float:left;
+  width:500px;
+  padding-top:50px;
+  margin-left:90px;
+  line-height: 30px;
+}
+.about1{
+  text-align:center;
+}
+.about1 h1{
+  text-decoration: underline;
+}
+.about2full{
+  width:100%;
+  padding:15px;
+  margin-left:10px;
+}
+.about2div{
+width:700px;
+}
+.about2-content{
+  line-height: 30px;
+  float:left;
+}
+.about2image{
+  width:600px;
+  float:left;
+  margin-left: 80px;;
+}
+.about2-image{
+  width:100%;
+  height:300px;
+  border-radius: 10px;
+
+}
+.about2-image:hover{
+  opacity: 0.7;
+}
+.about3content{
+  line-height: 30px;
+}
+.about3content2{
+  padding:15px;
+  margin-left:10px;
+  width:600px;
+}
+.about3div{
+  padding: 15px;
+
+}
+.about3image{
+    height:350px;
+    float:left;
+    width:600px;
+    border-radius: 10px;
+    margin-right: 30px;;
+}
+.about3content3div{
+line-height: 30px;
+padding: 20px;
+margin-left: 20px;
+}
+.about3content3{
+  margin-left: 80px;
+  padding: 10px;
+  
+}
+.about3contentdiv3content{
+  line-height: 40px;
+}
+.curicullumbanner{
+  width:100%;
+  height:100px;
+  
+}
+.curicullumbanner h1{
+  text-align: center;
+}
+.lists{
+  line-height: 70px;
+  float:left;
+  margin-left: 90px;
+}
+.admissionbanner{
+  height:400px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  
+}
+.enrollbutton{
+    height:50px;
+    width:250px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#f9c349;
+    border-radius: 20px;
+    color:white;
+    border:none;
+    cursor:pointer;
+    text-decoration: none;
+}
+.admisionrequirements{
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.admissiondocuments{
+  float:left;
+  padding:10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width:100%;
+}
+.admissiondetailsinput{
+  float:left;
+}
+.parentname{
+  height:50px;
+  width:500px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border:none;
+  background-color:#f6f7fa;
+}
+.parentemail{
+  height:50px;
+  width:500px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border:none;
+  background-color:#f6f7fa;
+}
+.parentcomments{
+  height:200px;
+  width:500px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border:none;
+  background-color:#f6f7fa;
+}
+.submitbutton{
+  float:left;
+  margin-left: 100px;
+  margin-top: 30px;
+}.submit-button{
+  height:50px;
+  width:100px;
+  background-color: #4583e0;
+  color:white;
+  border-radius: 10px;
+  border:none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.submit-button:hover{
+  background-color:#245398 ;
+}
+.schoolimage{
+  height:700px;
+  width:100%;
+}
+.schooldetails{
+  float:left;
+  margin-right:50px;
+  margin-left: 100px;
+}
+.locationcon{
+float:left;
+margin-left: 50px;
+margin-right: 10px;
+}
+.sendbuttondiv{
+  margin-top: 50px;
+}
+.send-button{
+  background-color:#4583e0 ;
+  color:white;
+  height:45px;
+  width:100px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.footerimage{
+  margin-top: 50px;
+}
+.footerouterdiv{
+  width:100%;
+}
+.footerinnerdiv1{
+  margin-top: 0px;
+  margin:10px;
+}
+.socialmediaicons{
+  margin-left: 30px;
+}
+.footermainlinks{
+  float:right;
+}
+.fa-brands fa-facebook:hover{
+ color:#4583e0;
+}
+.facebookicon{
+  float:left;
+}
+.instagramicon{
+ float:left;
+}
+.youtubeicon{
+  float:left;
+}
+.linkedinicon{
+  float:left;
+}
+.watsappicon{
+  float:left;
+}
+.facebookicon:hover{
+  color: #4583e0;
+}
+.instagramicon:hover{
+  color: #4583e0;
+}
+.youtubeicon:hover{
+  color:#4583e0;
+}
+.linkedinicon:hover{
+  color:#4583e0; 
+}
+.watsappicon:hover{
+  color:#4583e0;
+}
+.innerdiv2{
+  float:left;
+}
